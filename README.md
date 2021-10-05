@@ -33,13 +33,13 @@
     * parameters：
 
       | name | type | required |description|
-                          |----- |------| ---- |----|
-      |<font color=red>eventId | string |true||
+        |----- |------| ---- |----|
+      |<font color=red>eventId | string |true|
     
     * response：
 
       | name | type |description| 
-                          |----- |------| ---- |
+        |----- |------|----|
       | success | boolean|
       | code | int|
       |data | object|event data|
@@ -64,7 +64,7 @@
     * parameters：
 
       | name | type | required |description|
-                    |----- |------| ---- |----|
+        |----- |------| ---- |----|
       |<font color=red>eventId | string |true||
       |<font color=red>data | json |true||
 
@@ -100,13 +100,13 @@
     * parameters：
 
       | name | type | required |description|
-                          |----- |------| ---- |----|
+        |----- |------| ---- |----|
       |<font color=red>data | json |true||
 
     * response：
 
       | name | type |description|
-            |----- |------|----|
+        |----- |------|----|
       | success | boolean|
 
     * post data example：
@@ -133,13 +133,13 @@
     * parameters：
 
       | name | type | required |description|
-                                |----- |------| ---- |----|
+        |----- |------| ---- |----|
       |name | string |false|search organizer by name|
 
     * response：
 
       | name | type |description| 
-                                |----- |------| ---- |
+        |----- |------|----|
       | success | boolean|
       | code | int|
       |data | object|event data|
@@ -162,13 +162,13 @@
     * parameters：
 
       | name | type | required |description|
-                                      |----- |------| ---- |----|
+        |----- |------| ---- |----|
       |name | string |false|search participants by name|
 
     * response：
 
       | name | type |description| 
-                                      |----- |------| ---- |
+        |----- |------|----|
       | success | boolean|
       | code | int|
       |data | object|event data|
